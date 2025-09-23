@@ -1,4 +1,4 @@
-./.vscode
-./.terraform
-./.terraform.lock.hcl
-./*.tfstate
+.vscode
+.terraform
+.terraform.lock.hcl
+*.tfstate*
