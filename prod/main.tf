@@ -18,6 +18,14 @@ variable "myrg" {
     default = "rg-app551-eastus"
 }
 
+locals {
+  env = "prod"
+}
+
+output "env" {
+    value = local.env
+}
+
 
 output "name" {
     value = var.myvariable
